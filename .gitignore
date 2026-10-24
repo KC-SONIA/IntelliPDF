@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Uploaded documents
+uploads/
+*.pdf
+
+# Local FAISS indexes
+faiss_index/
+**/faiss_index/
+
+# Logs
+*.log
